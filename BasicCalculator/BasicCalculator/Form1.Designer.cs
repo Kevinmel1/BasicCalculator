@@ -68,7 +68,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CalculationsResultsText.Location = new System.Drawing.Point(13, 40);
             this.CalculationsResultsText.Name = "CalculationsResultsText";
-            this.CalculationsResultsText.Size = new System.Drawing.Size(294, 23);
+            this.CalculationsResultsText.Size = new System.Drawing.Size(294, 47);
             this.CalculationsResultsText.TabIndex = 1;
             this.CalculationsResultsText.Text = "Please enter an  equation and press enter or =";
             // 
@@ -101,7 +101,7 @@
             this.ButtonsPanel.Controls.Add(this.DELButton, 2, 0);
             this.ButtonsPanel.Controls.Add(this.Cbutton, 1, 0);
             this.ButtonsPanel.Controls.Add(this.CEButton, 0, 0);
-            this.ButtonsPanel.Location = new System.Drawing.Point(13, 66);
+            this.ButtonsPanel.Location = new System.Drawing.Point(13, 90);
             this.ButtonsPanel.Name = "ButtonsPanel";
             this.ButtonsPanel.RowCount = 5;
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -109,15 +109,15 @@
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonsPanel.Size = new System.Drawing.Size(294, 267);
+            this.ButtonsPanel.Size = new System.Drawing.Size(294, 243);
             this.ButtonsPanel.TabIndex = 2;
             // 
             // EqualsButton
             // 
             this.EqualsButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EqualsButton.Location = new System.Drawing.Point(222, 215);
+            this.EqualsButton.Location = new System.Drawing.Point(222, 195);
             this.EqualsButton.Name = "EqualsButton";
-            this.EqualsButton.Size = new System.Drawing.Size(69, 49);
+            this.EqualsButton.Size = new System.Drawing.Size(69, 45);
             this.EqualsButton.TabIndex = 19;
             this.EqualsButton.Text = "=";
             this.EqualsButton.UseVisualStyleBackColor = true;
@@ -126,9 +126,9 @@
             // DotButton
             // 
             this.DotButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DotButton.Location = new System.Drawing.Point(149, 215);
+            this.DotButton.Location = new System.Drawing.Point(149, 195);
             this.DotButton.Name = "DotButton";
-            this.DotButton.Size = new System.Drawing.Size(67, 49);
+            this.DotButton.Size = new System.Drawing.Size(67, 45);
             this.DotButton.TabIndex = 18;
             this.DotButton.Text = ".";
             this.DotButton.UseVisualStyleBackColor = true;
@@ -137,9 +137,9 @@
             // ZeroButton
             // 
             this.ZeroButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ZeroButton.Location = new System.Drawing.Point(76, 215);
+            this.ZeroButton.Location = new System.Drawing.Point(76, 195);
             this.ZeroButton.Name = "ZeroButton";
-            this.ZeroButton.Size = new System.Drawing.Size(67, 49);
+            this.ZeroButton.Size = new System.Drawing.Size(67, 45);
             this.ZeroButton.TabIndex = 17;
             this.ZeroButton.Text = "0";
             this.ZeroButton.UseVisualStyleBackColor = true;
@@ -148,9 +148,9 @@
             // PlusButton
             // 
             this.PlusButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PlusButton.Location = new System.Drawing.Point(222, 162);
+            this.PlusButton.Location = new System.Drawing.Point(222, 147);
             this.PlusButton.Name = "PlusButton";
-            this.PlusButton.Size = new System.Drawing.Size(69, 47);
+            this.PlusButton.Size = new System.Drawing.Size(69, 42);
             this.PlusButton.TabIndex = 15;
             this.PlusButton.Text = "+";
             this.PlusButton.UseVisualStyleBackColor = true;
@@ -159,9 +159,9 @@
             // ThreeButton
             // 
             this.ThreeButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ThreeButton.Location = new System.Drawing.Point(149, 162);
+            this.ThreeButton.Location = new System.Drawing.Point(149, 147);
             this.ThreeButton.Name = "ThreeButton";
-            this.ThreeButton.Size = new System.Drawing.Size(67, 47);
+            this.ThreeButton.Size = new System.Drawing.Size(67, 42);
             this.ThreeButton.TabIndex = 14;
             this.ThreeButton.Text = "3";
             this.ThreeButton.UseVisualStyleBackColor = true;
@@ -170,9 +170,9 @@
             // TwoButton
             // 
             this.TwoButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TwoButton.Location = new System.Drawing.Point(76, 162);
+            this.TwoButton.Location = new System.Drawing.Point(76, 147);
             this.TwoButton.Name = "TwoButton";
-            this.TwoButton.Size = new System.Drawing.Size(67, 47);
+            this.TwoButton.Size = new System.Drawing.Size(67, 42);
             this.TwoButton.TabIndex = 13;
             this.TwoButton.Text = "2";
             this.TwoButton.UseVisualStyleBackColor = true;
@@ -181,9 +181,9 @@
             // OneButton
             // 
             this.OneButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OneButton.Location = new System.Drawing.Point(3, 162);
+            this.OneButton.Location = new System.Drawing.Point(3, 147);
             this.OneButton.Name = "OneButton";
-            this.OneButton.Size = new System.Drawing.Size(67, 47);
+            this.OneButton.Size = new System.Drawing.Size(67, 42);
             this.OneButton.TabIndex = 12;
             this.OneButton.Text = "1";
             this.OneButton.UseVisualStyleBackColor = true;
@@ -192,9 +192,9 @@
             // MinusButton
             // 
             this.MinusButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MinusButton.Location = new System.Drawing.Point(222, 109);
+            this.MinusButton.Location = new System.Drawing.Point(222, 99);
             this.MinusButton.Name = "MinusButton";
-            this.MinusButton.Size = new System.Drawing.Size(69, 47);
+            this.MinusButton.Size = new System.Drawing.Size(69, 42);
             this.MinusButton.TabIndex = 11;
             this.MinusButton.Text = "-";
             this.MinusButton.UseVisualStyleBackColor = true;
@@ -203,9 +203,9 @@
             // SixButton
             // 
             this.SixButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SixButton.Location = new System.Drawing.Point(149, 109);
+            this.SixButton.Location = new System.Drawing.Point(149, 99);
             this.SixButton.Name = "SixButton";
-            this.SixButton.Size = new System.Drawing.Size(67, 47);
+            this.SixButton.Size = new System.Drawing.Size(67, 42);
             this.SixButton.TabIndex = 10;
             this.SixButton.Text = "6";
             this.SixButton.UseVisualStyleBackColor = true;
@@ -214,9 +214,9 @@
             // FiveButton
             // 
             this.FiveButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FiveButton.Location = new System.Drawing.Point(76, 109);
+            this.FiveButton.Location = new System.Drawing.Point(76, 99);
             this.FiveButton.Name = "FiveButton";
-            this.FiveButton.Size = new System.Drawing.Size(67, 47);
+            this.FiveButton.Size = new System.Drawing.Size(67, 42);
             this.FiveButton.TabIndex = 9;
             this.FiveButton.Text = "5";
             this.FiveButton.UseVisualStyleBackColor = true;
@@ -225,9 +225,9 @@
             // FourButton
             // 
             this.FourButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FourButton.Location = new System.Drawing.Point(3, 109);
+            this.FourButton.Location = new System.Drawing.Point(3, 99);
             this.FourButton.Name = "FourButton";
-            this.FourButton.Size = new System.Drawing.Size(67, 47);
+            this.FourButton.Size = new System.Drawing.Size(67, 42);
             this.FourButton.TabIndex = 8;
             this.FourButton.Text = "4";
             this.FourButton.UseVisualStyleBackColor = true;
@@ -236,9 +236,9 @@
             // MultiplicationButton
             // 
             this.MultiplicationButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MultiplicationButton.Location = new System.Drawing.Point(222, 56);
+            this.MultiplicationButton.Location = new System.Drawing.Point(222, 51);
             this.MultiplicationButton.Name = "MultiplicationButton";
-            this.MultiplicationButton.Size = new System.Drawing.Size(69, 47);
+            this.MultiplicationButton.Size = new System.Drawing.Size(69, 42);
             this.MultiplicationButton.TabIndex = 7;
             this.MultiplicationButton.Text = "X";
             this.MultiplicationButton.UseVisualStyleBackColor = true;
@@ -247,9 +247,9 @@
             // NineButton
             // 
             this.NineButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NineButton.Location = new System.Drawing.Point(149, 56);
+            this.NineButton.Location = new System.Drawing.Point(149, 51);
             this.NineButton.Name = "NineButton";
-            this.NineButton.Size = new System.Drawing.Size(67, 47);
+            this.NineButton.Size = new System.Drawing.Size(67, 42);
             this.NineButton.TabIndex = 6;
             this.NineButton.Text = "9";
             this.NineButton.UseVisualStyleBackColor = true;
@@ -258,9 +258,9 @@
             // EightButton
             // 
             this.EightButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EightButton.Location = new System.Drawing.Point(76, 56);
+            this.EightButton.Location = new System.Drawing.Point(76, 51);
             this.EightButton.Name = "EightButton";
-            this.EightButton.Size = new System.Drawing.Size(67, 47);
+            this.EightButton.Size = new System.Drawing.Size(67, 42);
             this.EightButton.TabIndex = 5;
             this.EightButton.Text = "8";
             this.EightButton.UseVisualStyleBackColor = true;
@@ -269,9 +269,9 @@
             // SevenButton
             // 
             this.SevenButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SevenButton.Location = new System.Drawing.Point(3, 56);
+            this.SevenButton.Location = new System.Drawing.Point(3, 51);
             this.SevenButton.Name = "SevenButton";
-            this.SevenButton.Size = new System.Drawing.Size(67, 47);
+            this.SevenButton.Size = new System.Drawing.Size(67, 42);
             this.SevenButton.TabIndex = 4;
             this.SevenButton.Text = "7";
             this.SevenButton.UseVisualStyleBackColor = true;
@@ -282,7 +282,7 @@
             this.DivideButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DivideButton.Location = new System.Drawing.Point(222, 3);
             this.DivideButton.Name = "DivideButton";
-            this.DivideButton.Size = new System.Drawing.Size(69, 47);
+            this.DivideButton.Size = new System.Drawing.Size(69, 42);
             this.DivideButton.TabIndex = 3;
             this.DivideButton.Text = "%";
             this.DivideButton.UseVisualStyleBackColor = true;
@@ -293,7 +293,7 @@
             this.DELButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DELButton.Location = new System.Drawing.Point(149, 3);
             this.DELButton.Name = "DELButton";
-            this.DELButton.Size = new System.Drawing.Size(67, 47);
+            this.DELButton.Size = new System.Drawing.Size(67, 42);
             this.DELButton.TabIndex = 2;
             this.DELButton.Text = "DEL";
             this.DELButton.UseVisualStyleBackColor = true;
@@ -304,7 +304,7 @@
             this.Cbutton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Cbutton.Location = new System.Drawing.Point(76, 3);
             this.Cbutton.Name = "Cbutton";
-            this.Cbutton.Size = new System.Drawing.Size(67, 47);
+            this.Cbutton.Size = new System.Drawing.Size(67, 42);
             this.Cbutton.TabIndex = 1;
             this.Cbutton.Text = "C";
             this.Cbutton.UseVisualStyleBackColor = true;
@@ -315,7 +315,7 @@
             this.CEButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CEButton.Location = new System.Drawing.Point(3, 3);
             this.CEButton.Name = "CEButton";
-            this.CEButton.Size = new System.Drawing.Size(67, 47);
+            this.CEButton.Size = new System.Drawing.Size(67, 42);
             this.CEButton.TabIndex = 0;
             this.CEButton.Text = "CE";
             this.CEButton.UseVisualStyleBackColor = true;

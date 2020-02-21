@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace BasicCalculator
@@ -273,10 +274,52 @@ namespace BasicCalculator
         /// </summary>
         private void CalculateEquation()
         {
-            //NOTE: TO DO
+
+
+            this.CalculationsResultsText.Text = ParseOperation();
 
             //Focus input
             FocusInputText();
+        }
+        /// <summary>
+        /// Parses the users equation and calculates the result
+        /// </summary>
+        /// <returns></returns>
+        private string ParseOperation()
+        {
+            try
+            {
+                //Get the users equation input
+                var userInput = this.UserInputText.Text;
+
+                //Remove all spaces
+                userInput = userInput.Replace(" ", "");
+
+                //Create a new top-level operation
+                var operation = new Operation();
+                var leftSide = true;
+
+                for (int i = 0; i < userInput.Length; i++)
+                {
+                    //TODO: Handle order priority
+                    // 4 + 5 * 3
+                    // It should calc 5 * 3 first, 
+                    
+                    if ("0123456789.".Any(c => userInput[i] == c))
+                    {
+
+                    }
+                    
+                }
+
+
+
+                return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                return $"Invalid equation. {ex.Message}";
+            }
         }
 
         #region Private Helpers
