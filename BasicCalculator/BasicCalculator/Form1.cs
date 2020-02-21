@@ -268,23 +268,18 @@ namespace BasicCalculator
         }
         #endregion
 
-        #region Private Helpers
         /// <summary>
         /// Calculates the given equation and outputs the answer to the user label
         /// </summary>
         private void CalculateEquation()
         {
             //NOTE: TO DO
+
+            //Focus input
+            FocusInputText();
         }
 
-        /// <summary>
-        /// Focuses the user input text
-        /// </summary>
-        private void FocusInputText()
-        {
-            //Focuses the user input text
-            this.UserInputText.Focus();
-        }
+        #region Private Helpers
         /// <summary>
         /// Inserts the given text into the user input text box
         /// </summary>
@@ -323,7 +318,18 @@ namespace BasicCalculator
 
             // Set selection lenght to zero
             this.UserInputText.SelectionLength = 0;
-            #endregion
+
         }
+
+        /// <summary>
+        /// Focuses the user input text
+        /// </summary>
+        private void FocusInputText()
+        {
+            //Focuses the user input text
+            this.UserInputText.Focus();
+        }
+
+        #endregion
     }
 }
